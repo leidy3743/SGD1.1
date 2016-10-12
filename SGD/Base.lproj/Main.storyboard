@@ -50,7 +50,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="570" height="62"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -70,7 +70,7 @@
                                                     <rect key="frame" x="62" y="0.0" width="523" height="32"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -116,7 +116,7 @@
                                                     <rect key="frame" x="52" y="1" width="78" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -126,7 +126,7 @@
                                                     <rect key="frame" x="52" y="21" width="223" height="11"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
@@ -153,7 +153,7 @@
                                                     <rect key="frame" x="52" y="1" width="111" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -163,7 +163,7 @@
                                                     <rect key="frame" x="52" y="21" width="192" height="11"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
@@ -187,7 +187,7 @@
                                                     <rect key="frame" x="52" y="1" width="152" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -197,7 +197,7 @@
                                                     <rect key="frame" x="52" y="21" width="276" height="11"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
@@ -221,7 +221,7 @@
                                                     <rect key="frame" x="52" y="1" width="101" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -231,7 +231,7 @@
                                                     <rect key="frame" x="52" y="21" width="214" height="11"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
@@ -255,7 +255,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="570" height="22"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
@@ -275,7 +275,7 @@
                                                     <rect key="frame" x="52" y="-5" width="34" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -285,7 +285,7 @@
                                                     <rect key="frame" x="52" y="16" width="59" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -309,7 +309,7 @@
                                                     <rect key="frame" x="52" y="-5" width="34" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -319,7 +319,7 @@
                                                     <rect key="frame" x="52" y="16" width="59" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -343,7 +343,7 @@
                                                     <rect key="frame" x="52" y="-5" width="34" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -353,7 +353,7 @@
                                                     <rect key="frame" x="52" y="16" width="59" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -377,7 +377,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="570" height="22"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
@@ -397,7 +397,7 @@
                                                     <rect key="frame" x="52" y="1" width="163" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -407,7 +407,7 @@
                                                     <rect key="frame" x="52" y="21" width="174" height="11"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
@@ -431,7 +431,7 @@
                                                     <rect key="frame" x="52" y="1" width="193" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -441,7 +441,7 @@
                                                     <rect key="frame" x="52" y="21" width="199" height="11"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
@@ -465,7 +465,7 @@
                                                     <rect key="frame" x="52" y="1" width="200" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -475,7 +475,7 @@
                                                     <rect key="frame" x="52" y="21" width="209" height="11"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
@@ -499,7 +499,7 @@
                                                     <rect key="frame" x="52" y="1" width="135" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -509,7 +509,7 @@
                                                     <rect key="frame" x="52" y="21" width="231" height="11"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
@@ -533,7 +533,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="570" height="22"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
@@ -553,7 +553,7 @@
                                                     <rect key="frame" x="52" y="-5" width="34" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -563,7 +563,7 @@
                                                     <rect key="frame" x="52" y="16" width="59" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -587,7 +587,7 @@
                                                     <rect key="frame" x="52" y="-5" width="34" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -597,7 +597,7 @@
                                                     <rect key="frame" x="52" y="16" width="59" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -724,7 +724,7 @@
         <!--Disciplinas Deportivas-->
         <scene sceneID="9Bm-3C-aF2">
             <objects>
-                <viewController id="xCx-lN-5iq" sceneMemberID="viewController">
+                <viewController id="xCx-lN-5iq" customClass="ViewControllerDisciplinas" customModule="SGD" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dsu-40-aTA"/>
                         <viewControllerLayoutGuide type="bottom" id="emb-a3-QOE"/>
@@ -749,6 +749,9 @@
                                         <exclude reference="EYo-dX-lEh"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="cambiarGrafico:" destination="xCx-lN-5iq" eventType="valueChanged" id="MDg-l1-uS0"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cantidad de deportistas por disciplinas deportivas" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="iiy-4k-GfQ">
                                 <rect key="frame" x="46" y="164" width="508" height="32"/>
@@ -756,7 +759,7 @@
                                     <constraint firstAttribute="height" constant="32" id="aJb-Wl-6x3"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HsD-1l-clf">
@@ -880,15 +883,22 @@
                             <color key="tintColor" red="0.58959559800000005" green="0.0" blue="0.90770725389999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="botonGraficos" destination="uvc-Re-0ms" id="Tz2-0d-ahG"/>
+                        <outlet property="gBarra" destination="HsD-1l-clf" id="FeS-CL-De8"/>
+                        <outlet property="gDona" destination="qgu-vb-WsD" id="TFX-wp-YAF"/>
+                        <outlet property="gTabla" destination="XGA-xn-Zk1" id="VLV-qy-clK"/>
+                        <outlet property="menuBoton" destination="5m4-JF-1iA" id="1fc-uN-7XD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dLf-H1-Wyx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2361" y="9"/>
         </scene>
-        <!--View Controller-->
+        <!--Bar ChartVC Disciplinas-->
         <scene sceneID="gY9-ax-tSb">
             <objects>
-                <viewController id="PiK-6z-9po" sceneMemberID="viewController">
+                <viewController id="PiK-6z-9po" customClass="BarChartVCDisciplinas" customModule="SGD" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UA3-Yh-6NA"/>
                         <viewControllerLayoutGuide type="bottom" id="O0V-gh-nIP"/>
@@ -896,40 +906,173 @@
                     <view key="view" contentMode="scaleToFill" id="5rM-bw-xgo">
                         <rect key="frame" x="0.0" y="0.0" width="560" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uIY-vy-Hbl" customClass="BarChartView" customModule="Charts">
+                                <rect key="frame" x="0.0" y="0.0" width="560" height="376"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="uIY-vy-Hbl" secondAttribute="trailing" id="67i-1G-GQW"/>
+                            <constraint firstItem="uIY-vy-Hbl" firstAttribute="bottom" secondItem="O0V-gh-nIP" secondAttribute="top" id="Fjx-4c-igX"/>
+                            <constraint firstItem="uIY-vy-Hbl" firstAttribute="leading" secondItem="5rM-bw-xgo" secondAttribute="leading" id="IfO-1m-Kcd"/>
+                            <constraint firstItem="uIY-vy-Hbl" firstAttribute="bottom" secondItem="O0V-gh-nIP" secondAttribute="top" id="Jck-fa-BCd"/>
+                            <constraint firstItem="uIY-vy-Hbl" firstAttribute="top" secondItem="UA3-Yh-6NA" secondAttribute="bottom" id="dP8-Su-EPx"/>
+                            <constraint firstAttribute="trailing" secondItem="uIY-vy-Hbl" secondAttribute="trailing" id="eDD-V1-fJM"/>
+                            <constraint firstItem="uIY-vy-Hbl" firstAttribute="top" secondItem="UA3-Yh-6NA" secondAttribute="bottom" id="p9M-jU-aCH"/>
+                            <constraint firstItem="uIY-vy-Hbl" firstAttribute="leading" secondItem="5rM-bw-xgo" secondAttribute="leading" id="tVO-ZB-nvT"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Fjx-4c-igX"/>
+                                <exclude reference="dP8-Su-EPx"/>
+                                <exclude reference="eDD-V1-fJM"/>
+                                <exclude reference="tVO-ZB-nvT"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="uIY-vy-Hbl"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Fjx-4c-igX"/>
+                                <include reference="dP8-Su-EPx"/>
+                                <include reference="eDD-V1-fJM"/>
+                                <include reference="tVO-ZB-nvT"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="barChartView" destination="uIY-vy-Hbl" id="Ntk-dL-cLy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qwy-4L-6bU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2361.75" y="628.5"/>
+            <point key="canvasLocation" x="2360" y="627"/>
         </scene>
-        <!--View Controller-->
+        <!--Pie ChartsVC Disciplinas-->
         <scene sceneID="cXW-vd-Vr0">
             <objects>
-                <viewController id="Nwr-j9-eQ0" sceneMemberID="viewController">
+                <viewController id="Nwr-j9-eQ0" customClass="PieChartsVCDisciplinas" customModule="SGD" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QTq-9k-qhe"/>
+                        <viewControllerLayoutGuide type="bottom" id="31g-7P-iUu"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="yRu-hy-H2w">
                         <rect key="frame" x="0.0" y="0.0" width="560" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F1I-TY-FI9" customClass="PieChartView" customModule="Charts">
+                                <rect key="frame" x="0.0" y="0.0" width="560" height="376"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="F1I-TY-FI9" firstAttribute="top" secondItem="QTq-9k-qhe" secondAttribute="bottom" id="30W-qq-sAc"/>
+                            <constraint firstItem="F1I-TY-FI9" firstAttribute="leading" secondItem="yRu-hy-H2w" secondAttribute="leading" id="6qe-6h-IM8"/>
+                            <constraint firstAttribute="trailing" secondItem="F1I-TY-FI9" secondAttribute="trailing" id="Kck-ku-apx"/>
+                            <constraint firstItem="F1I-TY-FI9" firstAttribute="top" secondItem="QTq-9k-qhe" secondAttribute="bottom" id="Ray-C3-VpG"/>
+                            <constraint firstItem="F1I-TY-FI9" firstAttribute="bottom" secondItem="31g-7P-iUu" secondAttribute="top" id="TJY-wX-rXI"/>
+                            <constraint firstAttribute="trailing" secondItem="F1I-TY-FI9" secondAttribute="trailing" id="d7f-3i-bus"/>
+                            <constraint firstItem="F1I-TY-FI9" firstAttribute="leading" secondItem="yRu-hy-H2w" secondAttribute="leading" id="ruI-Pq-eVi"/>
+                            <constraint firstItem="F1I-TY-FI9" firstAttribute="bottom" secondItem="31g-7P-iUu" secondAttribute="top" id="sSQ-D5-hPS"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="30W-qq-sAc"/>
+                                <exclude reference="Kck-ku-apx"/>
+                                <exclude reference="TJY-wX-rXI"/>
+                                <exclude reference="ruI-Pq-eVi"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="F1I-TY-FI9"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="30W-qq-sAc"/>
+                                <include reference="Kck-ku-apx"/>
+                                <include reference="TJY-wX-rXI"/>
+                                <include reference="ruI-Pq-eVi"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="pieChartView" destination="F1I-TY-FI9" id="Dgn-GH-Y46"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nne-Za-uUi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3075.75" y="-98.5"/>
+            <point key="canvasLocation" x="3074" y="-100"/>
         </scene>
-        <!--View Controller-->
+        <!--TablaVC Disciplinas-->
         <scene sceneID="10h-D6-pYb">
             <objects>
-                <viewController id="dMd-5s-EnP" sceneMemberID="viewController">
+                <viewController id="dMd-5s-EnP" customClass="TablaVCDisciplinas" customModule="SGD" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="alb-MU-aDj"/>
+                        <viewControllerLayoutGuide type="bottom" id="V1h-Cz-S2p"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ww9-7N-QH0">
                         <rect key="frame" x="0.0" y="0.0" width="560" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="black" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ggb-Pb-dcz">
+                                <rect key="frame" x="0.0" y="0.0" width="560" height="376"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="separatorColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BasicCell" id="RBG-mw-NaN">
+                                        <rect key="frame" x="0.0" y="28" width="560" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RBG-mw-NaN" id="fXv-59-rCy">
+                                            <rect key="frame" x="0.0" y="0.0" width="560" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ggb-Pb-dcz" firstAttribute="top" secondItem="alb-MU-aDj" secondAttribute="bottom" id="5SF-yg-hY1"/>
+                            <constraint firstItem="ggb-Pb-dcz" firstAttribute="top" secondItem="alb-MU-aDj" secondAttribute="bottom" id="84i-ti-TZV"/>
+                            <constraint firstItem="ggb-Pb-dcz" firstAttribute="bottom" secondItem="V1h-Cz-S2p" secondAttribute="top" id="E0O-YF-kgc"/>
+                            <constraint firstAttribute="trailing" secondItem="ggb-Pb-dcz" secondAttribute="trailing" id="MOy-OQ-NeS"/>
+                            <constraint firstItem="ggb-Pb-dcz" firstAttribute="leading" secondItem="Ww9-7N-QH0" secondAttribute="leading" id="NAH-gd-zTl"/>
+                            <constraint firstAttribute="trailing" secondItem="ggb-Pb-dcz" secondAttribute="trailing" id="QXF-Xf-mwf"/>
+                            <constraint firstItem="ggb-Pb-dcz" firstAttribute="leading" secondItem="Ww9-7N-QH0" secondAttribute="leading" id="YUs-Xa-3Ah"/>
+                            <constraint firstItem="ggb-Pb-dcz" firstAttribute="bottom" secondItem="V1h-Cz-S2p" secondAttribute="top" id="lVu-oO-qkR"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="84i-ti-TZV"/>
+                                <exclude reference="QXF-Xf-mwf"/>
+                                <exclude reference="YUs-Xa-3Ah"/>
+                                <exclude reference="lVu-oO-qkR"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="ggb-Pb-dcz"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="84i-ti-TZV"/>
+                                <include reference="QXF-Xf-mwf"/>
+                                <include reference="YUs-Xa-3Ah"/>
+                                <include reference="lVu-oO-qkR"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="lisTableView" destination="ggb-Pb-dcz" id="xl5-iz-7qe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7PZ-N5-mel" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3075.75" y="384.5"/>
+            <point key="canvasLocation" x="3072" y="382"/>
         </scene>
     </scenes>
     <resources>

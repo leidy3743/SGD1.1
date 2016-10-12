@@ -14,9 +14,14 @@
 		A618CBAD1DAC2384001F9ACE /* SGDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618CBAC1DAC2384001F9ACE /* SGDTests.swift */; };
 		A618CBB81DAC2384001F9ACE /* SGDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618CBB71DAC2384001F9ACE /* SGDUITests.swift */; };
 		A618CBCC1DAC2908001F9ACE /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618CBCB1DAC2908001F9ACE /* MenuController.swift */; };
-		A618CBD01DAC2944001F9ACE /* DisciplinasData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618CBCF1DAC2944001F9ACE /* DisciplinasData.swift */; };
 		A618CBD21DAC295D001F9ACE /* ModeloBdDisciplinas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618CBD11DAC295D001F9ACE /* ModeloBdDisciplinas.swift */; };
-		A618CBD41DAC29CD001F9ACE /* ChartsViewControllerDisciplinas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618CBD31DAC29CD001F9ACE /* ChartsViewControllerDisciplinas.swift */; };
+		A61C27911DAC99FF000D6AFF /* DisciplinasDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61C27901DAC99FF000D6AFF /* DisciplinasDatos.swift */; };
+		A61F7B431DAEEAFD00A37D7C /* PieChartVCDisciplinas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61F7B421DAEEAFD00A37D7C /* PieChartVCDisciplinas.swift */; };
+		A61F7B451DAEEB6300A37D7C /* BarChartVCDisicplinas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61F7B441DAEEB6300A37D7C /* BarChartVCDisicplinas.swift */; };
+		A61F7B471DAEF13900A37D7C /* TablaVCDisciplinas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61F7B461DAEF13900A37D7C /* TablaVCDisciplinas.swift */; };
+		A62139381DACB1B2004C7C96 /* ViewControllerDisciplinas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62139371DACB1B2004C7C96 /* ViewControllerDisciplinas.swift */; };
+		A62139481DACB771004C7C96 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A62139411DACB748004C7C96 /* Charts.framework */; };
+		A62139491DACB771004C7C96 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A62139411DACB748004C7C96 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A659A7891DAC5448006C9005 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A659A7881DAC5448006C9005 /* SWRevealViewController.m */; };
 		A659A78C1DAC5C08006C9005 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A659A78B1DAC5C08006C9005 /* InicioViewController.swift */; };
 /* End PBXBuildFile section */
@@ -36,7 +41,56 @@
 			remoteGlobalIDString = A618CB931DAC2384001F9ACE;
 			remoteInfo = SGD;
 		};
+		A62139401DACB748004C7C96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A62139391DACB747004C7C96 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		A62139421DACB748004C7C96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A62139391DACB747004C7C96 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
+			remoteInfo = "Charts-TV";
+		};
+		A62139441DACB748004C7C96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A62139391DACB747004C7C96 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65B3F5BF1C7370BE000983D0;
+			remoteInfo = "Charts-OSX";
+		};
+		A62139461DACB748004C7C96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A62139391DACB747004C7C96 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
+			remoteInfo = ChartsTests;
+		};
+		A621394A1DACB771004C7C96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A62139391DACB747004C7C96 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA8EC3F1A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A61C278F1DAC95E8000D6AFF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A62139491DACB771004C7C96 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A618CB941DAC2384001F9ACE /* SGD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGD.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,9 +106,13 @@
 		A618CBB71DAC2384001F9ACE /* SGDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGDUITests.swift; sourceTree = "<group>"; };
 		A618CBB91DAC2384001F9ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A618CBCB1DAC2908001F9ACE /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
-		A618CBCF1DAC2944001F9ACE /* DisciplinasData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisciplinasData.swift; sourceTree = "<group>"; };
 		A618CBD11DAC295D001F9ACE /* ModeloBdDisciplinas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeloBdDisciplinas.swift; sourceTree = "<group>"; };
-		A618CBD31DAC29CD001F9ACE /* ChartsViewControllerDisciplinas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartsViewControllerDisciplinas.swift; sourceTree = "<group>"; };
+		A61C27901DAC99FF000D6AFF /* DisciplinasDatos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisciplinasDatos.swift; sourceTree = "<group>"; };
+		A61F7B421DAEEAFD00A37D7C /* PieChartVCDisciplinas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartVCDisciplinas.swift; sourceTree = "<group>"; };
+		A61F7B441DAEEB6300A37D7C /* BarChartVCDisicplinas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartVCDisicplinas.swift; sourceTree = "<group>"; };
+		A61F7B461DAEF13900A37D7C /* TablaVCDisciplinas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TablaVCDisciplinas.swift; sourceTree = "<group>"; };
+		A62139371DACB1B2004C7C96 /* ViewControllerDisciplinas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerDisciplinas.swift; sourceTree = "<group>"; };
+		A62139391DACB747004C7C96 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = ../Charts/Charts.xcodeproj; sourceTree = "<group>"; };
 		A659A7871DAC5448006C9005 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		A659A7881DAC5448006C9005 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		A659A78A1DAC549D006C9005 /* SGD-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SGD-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -66,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A62139481DACB771004C7C96 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +148,7 @@
 		A618CB8B1DAC2384001F9ACE = {
 			isa = PBXGroup;
 			children = (
+				A62139391DACB747004C7C96 /* Charts.xcodeproj */,
 				A618CB961DAC2384001F9ACE /* SGD */,
 				A618CBAB1DAC2384001F9ACE /* SGDTests */,
 				A618CBB61DAC2384001F9ACE /* SGDUITests */,
@@ -116,10 +176,13 @@
 				A618CBA01DAC2384001F9ACE /* LaunchScreen.storyboard */,
 				A618CBA31DAC2384001F9ACE /* Info.plist */,
 				A618CBCB1DAC2908001F9ACE /* MenuController.swift */,
-				A618CBCF1DAC2944001F9ACE /* DisciplinasData.swift */,
+				A62139371DACB1B2004C7C96 /* ViewControllerDisciplinas.swift */,
 				A618CBD11DAC295D001F9ACE /* ModeloBdDisciplinas.swift */,
-				A618CBD31DAC29CD001F9ACE /* ChartsViewControllerDisciplinas.swift */,
 				A659A78B1DAC5C08006C9005 /* InicioViewController.swift */,
+				A61C27901DAC99FF000D6AFF /* DisciplinasDatos.swift */,
+				A61F7B421DAEEAFD00A37D7C /* PieChartVCDisciplinas.swift */,
+				A61F7B441DAEEB6300A37D7C /* BarChartVCDisicplinas.swift */,
+				A61F7B461DAEF13900A37D7C /* TablaVCDisciplinas.swift */,
 			);
 			path = SGD;
 			sourceTree = "<group>";
@@ -142,6 +205,17 @@
 			path = SGDUITests;
 			sourceTree = "<group>";
 		};
+		A621393A1DACB747004C7C96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A62139411DACB748004C7C96 /* Charts.framework */,
+				A62139431DACB748004C7C96 /* Charts.framework */,
+				A62139451DACB748004C7C96 /* Charts.framework */,
+				A62139471DACB748004C7C96 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		A659A7861DAC542E006C9005 /* SWRevealViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,10 +236,12 @@
 				A618CB901DAC2384001F9ACE /* Sources */,
 				A618CB911DAC2384001F9ACE /* Frameworks */,
 				A618CB921DAC2384001F9ACE /* Resources */,
+				A61C278F1DAC95E8000D6AFF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A621394B1DACB771004C7C96 /* PBXTargetDependency */,
 			);
 			name = SGD;
 			productName = SGD;
@@ -243,6 +319,12 @@
 			mainGroup = A618CB8B1DAC2384001F9ACE;
 			productRefGroup = A618CB951DAC2384001F9ACE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A621393A1DACB747004C7C96 /* Products */;
+					ProjectRef = A62139391DACB747004C7C96 /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A618CB931DAC2384001F9ACE /* SGD */,
@@ -251,6 +333,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A62139411DACB748004C7C96 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = A62139401DACB748004C7C96 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A62139431DACB748004C7C96 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = A62139421DACB748004C7C96 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A62139451DACB748004C7C96 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = A62139441DACB748004C7C96 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A62139471DACB748004C7C96 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = A62139461DACB748004C7C96 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A618CB921DAC2384001F9ACE /* Resources */ = {
@@ -285,12 +398,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A618CBCC1DAC2908001F9ACE /* MenuController.swift in Sources */,
-				A618CBD01DAC2944001F9ACE /* DisciplinasData.swift in Sources */,
 				A618CBD21DAC295D001F9ACE /* ModeloBdDisciplinas.swift in Sources */,
 				A659A7891DAC5448006C9005 /* SWRevealViewController.m in Sources */,
+				A61F7B431DAEEAFD00A37D7C /* PieChartVCDisciplinas.swift in Sources */,
 				A618CB981DAC2384001F9ACE /* AppDelegate.swift in Sources */,
-				A618CBD41DAC29CD001F9ACE /* ChartsViewControllerDisciplinas.swift in Sources */,
+				A62139381DACB1B2004C7C96 /* ViewControllerDisciplinas.swift in Sources */,
+				A61F7B451DAEEB6300A37D7C /* BarChartVCDisicplinas.swift in Sources */,
+				A61F7B471DAEF13900A37D7C /* TablaVCDisciplinas.swift in Sources */,
 				A659A78C1DAC5C08006C9005 /* InicioViewController.swift in Sources */,
+				A61C27911DAC99FF000D6AFF /* DisciplinasDatos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +438,11 @@
 			isa = PBXTargetDependency;
 			target = A618CB931DAC2384001F9ACE /* SGD */;
 			targetProxy = A618CBB41DAC2384001F9ACE /* PBXContainerItemProxy */;
+		};
+		A621394B1DACB771004C7C96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Charts-iOS";
+			targetProxy = A621394A1DACB771004C7C96 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -437,6 +558,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = SGD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lejoca.SGD;
@@ -454,6 +576,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = SGD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lejoca.SGD;

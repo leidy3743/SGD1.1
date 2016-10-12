@@ -64,7 +64,7 @@ class ModeloBdDisciplinas: NSObject, NSURLSessionDataDelegate {
         for i in 0 ..< jsonResult.count
         {
             jsonElement = jsonResult[i] as! NSDictionary
-            let Objdisciplinas = DisciplinasData()
+            let Objdisciplinas = DisciplinasDatos()
             
             
             if let disciplina = jsonElement["disciplina"] as? String,
@@ -81,6 +81,7 @@ class ModeloBdDisciplinas: NSObject, NSURLSessionDataDelegate {
         }
         
         dispatch_async(dispatch_get_main_queue(), { () -> Void in
+            
             
             self.delegate.itemsDownloaded(disciplinasElementos)
         })

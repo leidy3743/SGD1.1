@@ -1,5 +1,5 @@
 //
-//  DisciplinasData.swift
+//  DisciplinasDatos.swift
 //  SGD
 //
 //  Created by Leidy Carvajal on 10/10/16.
@@ -7,9 +7,10 @@
 //
 
 import Foundation
+import Foundation
 import UIKit
 
-class DisciplinasData: NSObject {
+class DisciplinasDatos: NSObject {
     
     var disciplina: String?
     var cantidad: Int?
