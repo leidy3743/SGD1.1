@@ -1,5 +1,5 @@
 //
-//  BarChartVCDisicplinas.swift
+//  BarChartVCNacionalidades.swift
 //  SGD
 //
 //  Created by Leidy Carvajal on 12/10/16.
@@ -11,39 +11,39 @@ import UIKit
 import Charts
 
 
-class BarChartVCDisciplinas: UIViewController, ChartViewDelegate, ModeloBDProtocol {
+class BarChartVCNacionalidades: UIViewController, ChartViewDelegate, ModeloBDPNac {
     
     
-
+ 
     @IBOutlet weak var barChartView: BarChartView!
+    
     var feedItems: NSArray = NSArray()
-    var objDisciplinaData: DisciplinasDatos = DisciplinasDatos()
+    var objNacionalidadData: NacionalidadesDatos = NacionalidadesDatos()
     
     override func viewDidLoad(){
         
         super.viewDidLoad()
         
-        //self.barChartView.delegate = self
-        let modeloBd = ModeloBdDisciplinas()
+        let modeloBd = ModeloBdNacionalidades()
         modeloBd.delegate = self
         modeloBd.downloadItems()
     }
     
-    var disciplina = [String] ()
+    var nacionalidad = [String] ()
     
     
     func itemsDownloaded(items: NSArray){
         
-        let feedItems: [DisciplinasDatos] = items as! [DisciplinasDatos]
+        let feedItems: [NacionalidadesDatos] = items as! [NacionalidadesDatos]
         
         var cantidad = [Double] ()
         
         for i in 0 ..< feedItems.count{
-            disciplina.append(feedItems[i].disciplina!)
+            nacionalidad.append(feedItems[i].nacionalidad!)
             cantidad.append(Double(feedItems[i].cantidad!))
         }
         
-        setChartBar(disciplina, values: cantidad)
+        setChartBar(nacionalidad, values: cantidad)
         
     }
     
@@ -57,8 +57,8 @@ class BarChartVCDisciplinas: UIViewController, ChartViewDelegate, ModeloBDProtoc
             dataEntries.append(dataEntry)
         }
         
-        let barchartDataSet = BarChartDataSet(yVals: dataEntries, label: "Disciplinas Deportivas")
-        let barchartData = BarChartData(xVals: disciplina, dataSet: barchartDataSet)
+        let barchartDataSet = BarChartDataSet(yVals: dataEntries, label: "Nacionalidades")
+        let barchartData = BarChartData(xVals: nacionalidad, dataSet: barchartDataSet)
         barchartDataSet.colors = ChartColorTemplates.joyful()
         
         

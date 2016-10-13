@@ -35,7 +35,6 @@ class PieChartsVCDisciplinas: UIViewController, ChartViewDelegate, ModeloBDProto
     func itemsDownloaded(items: NSArray){
         
         let feedItems: [DisciplinasDatos] = items as! [DisciplinasDatos]
-        print(feedItems)
         
         var cantidad = [Double] ()
         

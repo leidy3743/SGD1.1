@@ -1,24 +1,24 @@
 //
-//  ModeloBdDisciplinas.swift
+//  ModeloBdNacionalidades.swift
 //  SGD
 //
-//  Created by Leidy Carvajal on 10/10/16.
+//  Created by Leidy Carvajal on 12/10/16.
 //  Copyright © 2016 lejoca. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
-protocol ModeloBDProtocol: class {
+protocol ModeloBDPNac: class {
     func itemsDownloaded(items: NSArray)
 }
 
 
-class ModeloBdDisciplinas: NSObject, NSURLSessionDataDelegate {
+class ModeloBdNacionalidades: NSObject, NSURLSessionDataDelegate {
     
-    weak var delegate: ModeloBDProtocol!
+    weak var delegate: ModeloBDPNac!
     var data : NSMutableData = NSMutableData()
-    let urlPath: String = "http://bcpolicarbonatos.com.co/WSUser/prueba.php"
+    let urlPath: String = "http://bcpolicarbonatos.com.co/WSUser/dNacionalidad.php"
     
     
     func downloadItems() {
@@ -59,30 +59,30 @@ class ModeloBdDisciplinas: NSObject, NSURLSessionDataDelegate {
         }
         
         var jsonElement: NSDictionary = NSDictionary()
-        let disciplinasElementos: NSMutableArray = NSMutableArray()
+        let nacionalidadesElementos: NSMutableArray = NSMutableArray()
         
         for i in 0 ..< jsonResult.count
         {
             jsonElement = jsonResult[i] as! NSDictionary
-            let Objdisciplinas = DisciplinasDatos()
+            let Objnacionalidades = NacionalidadesDatos()
             
             
-            if let disciplina = jsonElement["disciplina"] as? String,
+            if let nacionalidad = jsonElement["nacionalidad"] as? String,
                 let cantidad = jsonElement["cantidad"] as? Int
             {
                 
-                Objdisciplinas.disciplina = disciplina
-                Objdisciplinas.cantidad = cantidad
+                Objnacionalidades.nacionalidad = nacionalidad
+                Objnacionalidades.cantidad = cantidad
             }
             
-            disciplinasElementos.addObject(Objdisciplinas)
+            nacionalidadesElementos.addObject(Objnacionalidades)
             
         }
         
         dispatch_async(dispatch_get_main_queue(), { () -> Void in
             
             
-            self.delegate.itemsDownloaded(disciplinasElementos)
+            self.delegate.itemsDownloaded(nacionalidadesElementos)
         })
     }
 }
