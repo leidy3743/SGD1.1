@@ -1,8 +1,8 @@
 //
-//  TablaVCNacionalidades.swift
+//  TablaVCPersonalApoyo.swift
 //  SGD
 //
-//  Created by Leidy Carvajal on 12/10/16.
+//  Created by Leidy Carvajal on 14/10/16.
 //  Copyright © 2016 lejoca. All rights reserved.
 //
 
@@ -11,20 +11,21 @@ import UIKit
 import Charts
 
 
-class TablaVCNacionalidades: UIViewController, UITableViewDataSource, UITableViewDelegate, ModeloBDPNac{
+class TablaVCPersonalApoyo: UIViewController, UITableViewDataSource, UITableViewDelegate, ModeloBdPA {
     
-    @IBOutlet weak var lisTableView: UITableView!
+    @IBOutlet weak var listTableView: UITableView!
     var feedItems: NSArray = NSArray()
-    var objNacionalidadData: NacionalidadesDatos = NacionalidadesDatos()
+    var objProgramaApoyo: ProgramaApoyoDatos = ProgramaApoyoDatos()
+    
     
     
     override func viewDidLoad(){
         super.viewDidLoad()
         
-        self.lisTableView.delegate = self
-        self.lisTableView.dataSource = self
+        self.listTableView.delegate = self
+        self.listTableView.dataSource = self
         
-        let modeloBd = ModeloBdNacionalidades()
+        let modeloBd = ModeloBdProgramaApoyo()
         modeloBd.delegate = self
         modeloBd.downloadItems()
     }
@@ -34,7 +35,7 @@ class TablaVCNacionalidades: UIViewController, UITableViewDataSource, UITableVie
     func itemsDownloaded(items: NSArray){
         
         feedItems = items
-        self.lisTableView.reloadData()
+        self.listTableView.reloadData()
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -43,10 +44,10 @@ class TablaVCNacionalidades: UIViewController, UITableViewDataSource, UITableVie
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let cellIdentifier: String = "BasicCell"
+        let cellIdentifier: String = "celda"
         let myCell: UITableViewCell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier)!
-        let item: NacionalidadesDatos = feedItems[indexPath.row] as! NacionalidadesDatos
-        myCell.textLabel!.text = "\(item.nacionalidad!) = \(item.cantidad!)"
+        let item: ProgramaApoyoDatos = feedItems[indexPath.row] as! ProgramaApoyoDatos
+        myCell.textLabel!.text = "\(item.esBeneficiario!) = \(item.cantidadUso!)"
         
         return myCell
     }
@@ -60,5 +61,4 @@ class TablaVCNacionalidades: UIViewController, UITableViewDataSource, UITableVie
         let color = (CGFloat(index) / CGFloat(itemCount)) * 0.6
         return UIColor(red: 210/255, green: color, blue: 127/255, alpha:1)
     }
-    
 }

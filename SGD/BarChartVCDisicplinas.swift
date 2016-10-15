@@ -50,6 +50,8 @@ class BarChartVCDisciplinas: UIViewController, ChartViewDelegate, ModeloBDProtoc
     func setChartBar(dataPoints: [String], values: [Double]){
         
         barChartView.noDataText = "You need to provide data for the chart."
+        //barChartView.noDataTextDescription = "GIVE REASON"
+        
         var dataEntries: [BarChartDataEntry] = []
         
         for i in 0..<dataPoints.count {
@@ -63,8 +65,17 @@ class BarChartVCDisciplinas: UIViewController, ChartViewDelegate, ModeloBDProtoc
         
         
         barChartView.xAxis.labelPosition = .Bottom
+        barChartView.xAxis.labelFont = UIFont.init(name: "AvenirNext-Regular", size: 12)!
+        barChartView.descriptionText = ""
         barChartView.backgroundColor = UIColor(red: 189/255, green: 195/255, blue: 199/255, alpha: 1)
         barChartView.animate(xAxisDuration: 2.0, yAxisDuration: 2.0, easingOption: .EaseInBounce)
+        barChartView.rightAxis.enabled = false
+        barChartView.leftAxis.labelFont = UIFont.init(name: "Helvetica", size: 12)!
         barChartView.data = barchartData
+    }
+    
+    func chartValueSelected(chartView: ChartViewBase, entry: ChartDataEntry, dataSetIndex: Int, highlight: ChartHighlight) {
+        
+        
     }
 }

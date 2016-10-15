@@ -1,24 +1,23 @@
 //
-//  ModeloBdDisciplinas.swift
+//  ModeloBdCampeonatos.swift
 //  SGD
 //
-//  Created by Leidy Carvajal on 10/10/16.
+//  Created by Leidy Carvajal on 13/10/16.
 //  Copyright © 2016 lejoca. All rights reserved.
 //
-
 import Foundation
 import UIKit
 
-protocol ModeloBDProtocol: class {
+protocol ModeloBdCamp: class {
     func itemsDownloaded(items: NSArray)
 }
 
 
-class ModeloBdDisciplinas: NSObject, NSURLSessionDataDelegate {
+class ModeloBdCampeonatos: NSObject, NSURLSessionDataDelegate {
     
-    weak var delegate: ModeloBDProtocol!
+    weak var delegate: ModeloBdCamp!
     var data : NSMutableData = NSMutableData()
-    let urlPath: String = "http://bcpolicarbonatos.com.co/WSUser/dDisciplinas.php"
+    let urlPath: String = "http://bcpolicarbonatos.com.co/WSUser/dCampeonatos.php"
     
     
     func downloadItems() {
@@ -59,30 +58,31 @@ class ModeloBdDisciplinas: NSObject, NSURLSessionDataDelegate {
         }
         
         var jsonElement: NSDictionary = NSDictionary()
-        let disciplinasElementos: NSMutableArray = NSMutableArray()
+        let campeonatosElementos: NSMutableArray = NSMutableArray()
         
         for i in 0 ..< jsonResult.count
         {
             jsonElement = jsonResult[i] as! NSDictionary
-            let Objdisciplinas = DisciplinasDatos()
+            let ObjCampeonatos = CampeonatosDatos()
             
             
-            if let disciplina = jsonElement["disciplina"] as? String,
-                let cantidad = jsonElement["cantidad"] as? Int
+            if let tipo = jsonElement["tipo"] as? String,
+                let cantidadTipo = jsonElement["cantidadTipo"] as? Int
             {
                 
-                Objdisciplinas.disciplina = disciplina
-                Objdisciplinas.cantidad = cantidad
+                ObjCampeonatos.tipo = tipo
+                ObjCampeonatos.cantidadTipo = cantidadTipo
             }
             
-            disciplinasElementos.addObject(Objdisciplinas)
+            campeonatosElementos.addObject(ObjCampeonatos)
             
         }
         
         dispatch_async(dispatch_get_main_queue(), { () -> Void in
             
             
-            self.delegate.itemsDownloaded(disciplinasElementos)
+            self.delegate.itemsDownloaded(campeonatosElementos)
         })
     }
+
 }

@@ -15,8 +15,9 @@ class BarChartVCNacionalidades: UIViewController, ChartViewDelegate, ModeloBDPNa
     
     
  
-    @IBOutlet weak var barChartView: BarChartView!
-    
+    @IBOutlet weak var barChartView: HorizontalBarChartView!
+    //@IBOutlet weak var barChartView: BarChartView!
+
     var feedItems: NSArray = NSArray()
     var objNacionalidadData: NacionalidadesDatos = NacionalidadesDatos()
     

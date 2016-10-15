@@ -45,12 +45,6 @@ class BubbleChartVCNacionalidades: UIViewController, ChartViewDelegate, ModeloBD
             
         }
     
-    
-    
-    var disciplina: [String]!
-    
-
-    
     //funcion para crear el grafico
     func setChartBubble(dataPoints: [String], values: [Double]) {
         

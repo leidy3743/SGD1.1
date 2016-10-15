@@ -18,7 +18,7 @@ class ModeloBdNacionalidades: NSObject, NSURLSessionDataDelegate {
     
     weak var delegate: ModeloBDPNac!
     var data : NSMutableData = NSMutableData()
-    let urlPath: String = "http://bcpolicarbonatos.com.co/WSUser/dNacionalidad.php"
+    let urlPath: String = "http://bcpolicarbonatos.com.co/WSUser/dNacionalidades.php"
     
     
     func downloadItems() {

@@ -23,7 +23,7 @@ class InicioViewController: UIViewController, UIWebViewDelegate {
         
         if self.revealViewController() != nil {
             menuBoton.target = self.revealViewController()
-            menuBoton.action = "revealToggle:"
+            menuBoton.action = #selector(SWRevealViewController.revealToggle(_:))
             
             extraBoton.target = self.revealViewController()
             extraBoton.action = "rightRevealToggle:"
@@ -31,7 +31,7 @@ class InicioViewController: UIViewController, UIWebViewDelegate {
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
         
-        let urlPath: String = "https://prodigy.msn.com/es-mx/deportes"
+        let urlPath: String = "http://www.sind.gov.co/noticias/listar"
         let url: NSURL = NSURL(string: urlPath)!
         
         //Crea una variable llamda request que hace una carga de la url contenida en url

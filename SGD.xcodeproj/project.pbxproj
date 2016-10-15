@@ -14,6 +14,11 @@
 		A618CBB81DAC2384001F9ACE /* SGDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618CBB71DAC2384001F9ACE /* SGDUITests.swift */; };
 		A618CBCC1DAC2908001F9ACE /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618CBCB1DAC2908001F9ACE /* MenuController.swift */; };
 		A618CBD21DAC295D001F9ACE /* ModeloBdDisciplinas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618CBD11DAC295D001F9ACE /* ModeloBdDisciplinas.swift */; };
+		A61AA23E1DB1A0BA00A4A44A /* ModeloBdProgramaApoyo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61AA23D1DB1A0BA00A4A44A /* ModeloBdProgramaApoyo.swift */; };
+		A61AA2431DB1A0CD00A4A44A /* ProgramaApoyoDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61AA2421DB1A0CD00A4A44A /* ProgramaApoyoDatos.swift */; };
+		A61AA2471DB1A12600A4A44A /* PieChartVCProgramaApoyo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61AA2461DB1A12600A4A44A /* PieChartVCProgramaApoyo.swift */; };
+		A61AA2491DB1A15D00A4A44A /* LineaChartVCProgramaApoyo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61AA2481DB1A15D00A4A44A /* LineaChartVCProgramaApoyo.swift */; };
+		A61AA24B1DB1A18300A4A44A /* TablaVCPersonalApoyo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61AA24A1DB1A18300A4A44A /* TablaVCPersonalApoyo.swift */; };
 		A61C27911DAC99FF000D6AFF /* DisciplinasDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61C27901DAC99FF000D6AFF /* DisciplinasDatos.swift */; };
 		A61F7B431DAEEAFD00A37D7C /* PieChartVCDisciplinas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61F7B421DAEEAFD00A37D7C /* PieChartVCDisciplinas.swift */; };
 		A61F7B451DAEEB6300A37D7C /* BarChartVCDisicplinas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61F7B441DAEEB6300A37D7C /* BarChartVCDisicplinas.swift */; };
@@ -28,6 +33,13 @@
 		A62139381DACB1B2004C7C96 /* ViewControllerDisciplinas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62139371DACB1B2004C7C96 /* ViewControllerDisciplinas.swift */; };
 		A62139481DACB771004C7C96 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A62139411DACB748004C7C96 /* Charts.framework */; };
 		A62139491DACB771004C7C96 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A62139411DACB748004C7C96 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A626E8B11DB19B070089FD4E /* ViewControllerProgramaApoyo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A626E8B01DB19B070089FD4E /* ViewControllerProgramaApoyo.swift */; };
+		A62C31BB1DB0592600E575C3 /* ViewControllerCampeonatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62C31BA1DB0592600E575C3 /* ViewControllerCampeonatos.swift */; };
+		A62C31BD1DB0593600E575C3 /* ModeloBdCampeonatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62C31BC1DB0593600E575C3 /* ModeloBdCampeonatos.swift */; };
+		A62C31BF1DB0594800E575C3 /* CampeonatosDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62C31BE1DB0594800E575C3 /* CampeonatosDatos.swift */; };
+		A62C31C11DB0598400E575C3 /* LineaChartVCCampeonatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62C31C01DB0598400E575C3 /* LineaChartVCCampeonatos.swift */; };
+		A62C31C31DB059A500E575C3 /* ScatterChartVCCampeonatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62C31C21DB059A500E575C3 /* ScatterChartVCCampeonatos.swift */; };
+		A62C31C51DB059B900E575C3 /* TablaVCCampeonatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62C31C41DB059B900E575C3 /* TablaVCCampeonatos.swift */; };
 		A659A7891DAC5448006C9005 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A659A7881DAC5448006C9005 /* SWRevealViewController.m */; };
 		A659A78C1DAC5C08006C9005 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A659A78B1DAC5C08006C9005 /* InicioViewController.swift */; };
 /* End PBXBuildFile section */
@@ -112,6 +124,11 @@
 		A618CBB91DAC2384001F9ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A618CBCB1DAC2908001F9ACE /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		A618CBD11DAC295D001F9ACE /* ModeloBdDisciplinas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeloBdDisciplinas.swift; sourceTree = "<group>"; };
+		A61AA23D1DB1A0BA00A4A44A /* ModeloBdProgramaApoyo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeloBdProgramaApoyo.swift; sourceTree = "<group>"; };
+		A61AA2421DB1A0CD00A4A44A /* ProgramaApoyoDatos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramaApoyoDatos.swift; sourceTree = "<group>"; };
+		A61AA2461DB1A12600A4A44A /* PieChartVCProgramaApoyo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartVCProgramaApoyo.swift; sourceTree = "<group>"; };
+		A61AA2481DB1A15D00A4A44A /* LineaChartVCProgramaApoyo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineaChartVCProgramaApoyo.swift; sourceTree = "<group>"; };
+		A61AA24A1DB1A18300A4A44A /* TablaVCPersonalApoyo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TablaVCPersonalApoyo.swift; sourceTree = "<group>"; };
 		A61C27901DAC99FF000D6AFF /* DisciplinasDatos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisciplinasDatos.swift; sourceTree = "<group>"; };
 		A61F7B421DAEEAFD00A37D7C /* PieChartVCDisciplinas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartVCDisciplinas.swift; sourceTree = "<group>"; };
 		A61F7B441DAEEB6300A37D7C /* BarChartVCDisicplinas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartVCDisicplinas.swift; sourceTree = "<group>"; };
@@ -125,6 +142,13 @@
 		A61F7B591DAF1F1600A37D7C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A62139371DACB1B2004C7C96 /* ViewControllerDisciplinas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerDisciplinas.swift; sourceTree = "<group>"; };
 		A62139391DACB747004C7C96 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = ../Charts/Charts.xcodeproj; sourceTree = "<group>"; };
+		A626E8B01DB19B070089FD4E /* ViewControllerProgramaApoyo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerProgramaApoyo.swift; sourceTree = "<group>"; };
+		A62C31BA1DB0592600E575C3 /* ViewControllerCampeonatos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerCampeonatos.swift; sourceTree = "<group>"; };
+		A62C31BC1DB0593600E575C3 /* ModeloBdCampeonatos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeloBdCampeonatos.swift; sourceTree = "<group>"; };
+		A62C31BE1DB0594800E575C3 /* CampeonatosDatos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampeonatosDatos.swift; sourceTree = "<group>"; };
+		A62C31C01DB0598400E575C3 /* LineaChartVCCampeonatos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineaChartVCCampeonatos.swift; sourceTree = "<group>"; };
+		A62C31C21DB059A500E575C3 /* ScatterChartVCCampeonatos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScatterChartVCCampeonatos.swift; sourceTree = "<group>"; };
+		A62C31C41DB059B900E575C3 /* TablaVCCampeonatos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TablaVCCampeonatos.swift; sourceTree = "<group>"; };
 		A659A7871DAC5448006C9005 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		A659A7881DAC5448006C9005 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		A659A78A1DAC549D006C9005 /* SGD-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SGD-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -181,6 +205,8 @@
 		A618CB961DAC2384001F9ACE /* SGD */ = {
 			isa = PBXGroup;
 			children = (
+				A626E8AF1DB19AAB0089FD4E /* ProgramaApoyo */,
+				A62C31B61DB058F500E575C3 /* Campeonatos */,
 				A61F7B561DAF0EFE00A37D7C /* Nacionalidades */,
 				A61F7B4B1DAF0CD600A37D7C /* Disciplinas */,
 				A659A7861DAC542E006C9005 /* SWRevealViewController */,
@@ -248,6 +274,32 @@
 				A62139471DACB748004C7C96 /* ChartsTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A626E8AF1DB19AAB0089FD4E /* ProgramaApoyo */ = {
+			isa = PBXGroup;
+			children = (
+				A626E8B01DB19B070089FD4E /* ViewControllerProgramaApoyo.swift */,
+				A61AA23D1DB1A0BA00A4A44A /* ModeloBdProgramaApoyo.swift */,
+				A61AA2421DB1A0CD00A4A44A /* ProgramaApoyoDatos.swift */,
+				A61AA2461DB1A12600A4A44A /* PieChartVCProgramaApoyo.swift */,
+				A61AA2481DB1A15D00A4A44A /* LineaChartVCProgramaApoyo.swift */,
+				A61AA24A1DB1A18300A4A44A /* TablaVCPersonalApoyo.swift */,
+			);
+			name = ProgramaApoyo;
+			sourceTree = "<group>";
+		};
+		A62C31B61DB058F500E575C3 /* Campeonatos */ = {
+			isa = PBXGroup;
+			children = (
+				A62C31BA1DB0592600E575C3 /* ViewControllerCampeonatos.swift */,
+				A62C31BC1DB0593600E575C3 /* ModeloBdCampeonatos.swift */,
+				A62C31BE1DB0594800E575C3 /* CampeonatosDatos.swift */,
+				A62C31C01DB0598400E575C3 /* LineaChartVCCampeonatos.swift */,
+				A62C31C21DB059A500E575C3 /* ScatterChartVCCampeonatos.swift */,
+				A62C31C41DB059B900E575C3 /* TablaVCCampeonatos.swift */,
+			);
+			name = Campeonatos;
 			sourceTree = "<group>";
 		};
 		A659A7861DAC542E006C9005 /* SWRevealViewController */ = {
@@ -431,17 +483,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A62C31C51DB059B900E575C3 /* TablaVCCampeonatos.swift in Sources */,
+				A62C31BF1DB0594800E575C3 /* CampeonatosDatos.swift in Sources */,
 				A61F7B531DAF0E6300A37D7C /* BarChartVCNacionalidades.swift in Sources */,
+				A62C31C11DB0598400E575C3 /* LineaChartVCCampeonatos.swift in Sources */,
+				A626E8B11DB19B070089FD4E /* ViewControllerProgramaApoyo.swift in Sources */,
+				A61AA23E1DB1A0BA00A4A44A /* ModeloBdProgramaApoyo.swift in Sources */,
+				A61AA2471DB1A12600A4A44A /* PieChartVCProgramaApoyo.swift in Sources */,
 				A61F7B4F1DAF0E1500A37D7C /* ModeloBdNacionalidades.swift in Sources */,
+				A62C31BB1DB0592600E575C3 /* ViewControllerCampeonatos.swift in Sources */,
 				A61F7B581DAF0F1E00A37D7C /* TablaVCNacionalidades.swift in Sources */,
 				A618CBCC1DAC2908001F9ACE /* MenuController.swift in Sources */,
 				A61F7B4D1DAF0DFB00A37D7C /* ViewControllerNacionalidades.swift in Sources */,
 				A618CBD21DAC295D001F9ACE /* ModeloBdDisciplinas.swift in Sources */,
 				A659A7891DAC5448006C9005 /* SWRevealViewController.m in Sources */,
 				A61F7B511DAF0E4B00A37D7C /* NacionalidadesDatos.swift in Sources */,
+				A62C31C31DB059A500E575C3 /* ScatterChartVCCampeonatos.swift in Sources */,
 				A61F7B431DAEEAFD00A37D7C /* PieChartVCDisciplinas.swift in Sources */,
 				A618CB981DAC2384001F9ACE /* AppDelegate.swift in Sources */,
+				A61AA24B1DB1A18300A4A44A /* TablaVCPersonalApoyo.swift in Sources */,
 				A62139381DACB1B2004C7C96 /* ViewControllerDisciplinas.swift in Sources */,
+				A62C31BD1DB0593600E575C3 /* ModeloBdCampeonatos.swift in Sources */,
+				A61AA2491DB1A15D00A4A44A /* LineaChartVCProgramaApoyo.swift in Sources */,
+				A61AA2431DB1A0CD00A4A44A /* ProgramaApoyoDatos.swift in Sources */,
 				A61F7B451DAEEB6300A37D7C /* BarChartVCDisicplinas.swift in Sources */,
 				A61F7B471DAEF13900A37D7C /* TablaVCDisciplinas.swift in Sources */,
 				A659A78C1DAC5C08006C9005 /* InicioViewController.swift in Sources */,
